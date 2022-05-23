@@ -1,0 +1,42 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 20px;
+}
+
+.login-form input {
+  font-size: 16px;
+  outline: none;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  border-radius: 20px;
+}
+
+.login-form input:not([type="submit"]) {
+  transition: border-color 0.3s ease-in-out;
+  padding-left: 10px;
+}
+
+.login-form input:focus {
+  border-color: rgb(33, 185, 235);
+}
+
+.login-form input[type="submit"] {
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.issues_column input:hover,
+.login-form input[type="submit"]:hover {
+  background-color: rgb(33, 185, 235);
+  color: white;
+  cursor: pointer;
+}
+
+.login-form a {
+  color: inherit;
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+}

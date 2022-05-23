@@ -1,0 +1,37 @@
+.Topic {
+  margin: 20px 10px;
+  border: 2px solid rgba(100, 149, 237, 0.2);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.Topic_content {
+  display: flex;
+  margin: 20px 5px;
+}
+
+.Topic_content__text {
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0px 5px;
+  width: 33.3%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.Topic_content__text img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+
+.Topic_content__text:hover {
+  transform: scale(1.5);
+  background-color: rgb(252, 252, 252);
+  border-color: cornflowerblue;
+  z-index: 1;
+}

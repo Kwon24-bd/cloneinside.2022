@@ -1,0 +1,86 @@
+@import "reset.css";
+@import "CSS/status-bar.css";
+@import "CSS/header.css";
+@import "CSS/topic.css";
+@import "CSS/login-form.css";
+@import "CSS/nav-bar.css";
+@import "CSS/issues.css";
+@import "CSS/no-mobile.css";
+@import "CSS/user-component.css";
+@import "CSS/message.css";
+
+body {
+  background: linear-gradient(rgb(216, 235, 251), rgb(155, 199, 244));
+}
+
+.headerchat-bar {
+  position: fixed;
+  top: 60px;
+  display: flex;
+  width: 100%;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.headerchat-column {
+  width: 31%;
+}
+.headerchat-column a {
+  color: inherit;
+}
+.headerchat-column:last-child {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+body:not(.screen-height) {
+  height: 85vh;
+}
+.screen-height {
+  height: 130vh;
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+
+.header-bar__icons i {
+  margin-right: 10px;
+  opacity: 0.6;
+}
+
+.header-bar .header-title {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.chat-contact {
+  color: inherit;
+  text-decoration: none;
+}
+.qa {
+  margin-top: 20px;
+}
+
+.qa_column {
+  display: flex;
+  align-items: center;
+  margin: 15px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+
+.qa_column-child i {
+  margin-right: 20px;
+}
+
+.qa_column-child span {
+  font-size: 14px;
+  font-weight: 550;
+}
